@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-26T12:46:24 NZDT" name="Default suite" finished-at="2021-03-26T12:47:01 NZDT" duration-ms="36875">
+    <groups>
+      <group name="FunctionalTest">
+        <method signature="RegisterUser.RegisterNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.RegisterUser@1afd44cb]" name="RegisterNewUser" class="framework.RegisterUser"/>
+      </group> <!-- FunctionalTest -->
+      <group name="Sanity">
+        <method signature="RegisterUser.validateRegisterUserPage()[pri:0, instance:framework.RegisterUser@1afd44cb]" name="validateRegisterUserPage" class="framework.RegisterUser"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test started-at="2021-03-26T12:46:24 NZDT" name="Default test" finished-at="2021-03-26T12:47:01 NZDT" duration-ms="36875">
+      <class name="framework.RegisterUser">
+        <test-method is-config="true" signature="beforetestIntialize()[pri:0, instance:framework.RegisterUser@1afd44cb]" started-at="2021-03-26T12:46:24 NZDT" name="beforetestIntialize" finished-at="2021-03-26T12:46:30 NZDT" duration-ms="5410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetestIntialize -->
+        <test-method signature="RegisterNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.RegisterUser@1afd44cb]" started-at="2021-03-26T12:46:30 NZDT" name="RegisterNewUser" data-provider="getRegisterUserData" finished-at="2021-03-26T12:46:46 NZDT" duration-ms="16106" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd1111]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pwd1111]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username1111]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[FirstName1111]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[LastName1111]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[July]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[98977382]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterNewUser -->
+        <test-method signature="RegisterNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:framework.RegisterUser@1afd44cb]" started-at="2021-03-26T12:46:46 NZDT" name="RegisterNewUser" data-provider="getRegisterUserData" finished-at="2021-03-26T12:46:57 NZDT" duration-ms="11323" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test2@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pwd2222]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pwd2222]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Username2222]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[FirstName2222]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[LastName2222]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[March]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[98977382]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterNewUser -->
+        <test-method signature="validateRegisterUserPage()[pri:0, instance:framework.RegisterUser@1afd44cb]" started-at="2021-03-26T12:46:57 NZDT" name="validateRegisterUserPage" finished-at="2021-03-26T12:47:01 NZDT" duration-ms="3959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterUserPage -->
+      </class> <!-- framework.RegisterUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
